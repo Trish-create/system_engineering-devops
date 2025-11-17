@@ -1,4 +1,2 @@
 #!/bin/bash
-repo/
- └── 0x00-shell_basics/
-       └── 0-home_directory
+cd ~
