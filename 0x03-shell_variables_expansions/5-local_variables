@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "=== Local Variables, Environment Variables, and Shell Functions ==="set
+echo "=== Shell Functions ==="declare -F
