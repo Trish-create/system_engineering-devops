@@ -1,2 +1,2 @@
 #!/bin/bash
-BEST="School"  # global variable
+BEST="School"  # global variable echo "BEST $BEST"
