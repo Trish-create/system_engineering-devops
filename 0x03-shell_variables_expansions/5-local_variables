@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "=== Shell Functions ==="declare -F
+echo env 
