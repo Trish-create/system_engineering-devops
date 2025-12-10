@@ -1,1 +1,2 @@
 #!/bin/bash
+BEST="School" echo "BEST is set to: $BEST"
