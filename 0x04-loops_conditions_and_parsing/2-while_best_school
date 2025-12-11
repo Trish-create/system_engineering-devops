@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # This script prints “Best School” 10 times
 
-while i in {1..10}
+while [ $count -le 10 ]
 do
   echo "Best School"
+  count=$((count + 1))
 done
