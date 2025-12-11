@@ -1,1 +1,1 @@
-
+This project introduces learners to loops, conditional statements, and basic input parsing in Bash scripting. Learners will develop skills in using control flow to automate repetitive tasks and handle decision-making in scripts.
