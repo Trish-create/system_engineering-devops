@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Kill the 7-highlander process using SIGKILL
+
+PID=$(ps aux | grep "[7]-highlander" | awk '{print $2}')
+
+if [ -n "$PID" ]; then
+    kill -9 "$PID"
+fi
