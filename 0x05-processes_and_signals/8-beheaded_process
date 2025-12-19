@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 # Kill the 7-highlander process using SIGKILL
 # shellcheck disable=SC2009
-PID=$(ps aux | grep "[7]-highlander" | awk '{print $2}')
-
-if [ -n "$PID" ]; then
-    kill -9 "$PID"
-fi
+pgrep -f 7-highlander | xargs kill -9
